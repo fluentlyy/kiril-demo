@@ -395,7 +395,7 @@ function handleMediaChange() {
         </svg>
       </button>
       <ul id="dropdownMenu" class="menu__dropdown-3 hidden">
-        <li><a href="#">EN</a></li>
+        <li><a href="/EN/Main/index.html">EN</a></li>
       </ul>
     </div>
   </nav>

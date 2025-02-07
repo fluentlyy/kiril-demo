@@ -1458,6 +1458,7 @@ body {
   .slider__img {
     width: 355px;
     height: 355px;
+    animation: slide 5s linear infinite;
   }
   @keyframes slide {
     0% {
