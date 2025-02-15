@@ -1828,6 +1828,9 @@ body {
   .project__text {
     width: auto;
   }
+  .swiper {
+    gap: 0;
+  }
   .project__text p {
     font-family: "Inter";
     font-style: normal;
