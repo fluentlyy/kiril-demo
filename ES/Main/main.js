@@ -1,7 +1,5 @@
-function handleMediaChange() {
-  if (window.innerWidth <= 434) {
-  } else if (window.innerWidth <= 885) {
-    document.querySelector(".footer__body").innerHTML = `<svg
+const footerBody = document.querySelector(".footer__body");
+let content885 = `<svg
   class="footer__logo"
   width="122"
   height="108"
@@ -186,6 +184,203 @@ function handleMediaChange() {
             </a>
           </div>
 <p class="bot__2024">© 2024</p>`;
+function handleMediaChange() {
+  if (window.innerWidth <= 630) {
+    footerBody.innerHTML = content885;
+    document.querySelector(
+      ".swiper-wrapper"
+    ).innerHTML = `<div class="swiper-slide">
+    <a href="../Projects/Project-1/index.html" class="slider__card">
+      <img src="./imgs/cards/Rectangle 1011.png" alt="" class="card__img" />
+      <div class="card__info">
+        <h2>Cursos de Español</h2>
+        <p>marzo de 2022</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-2/index.html" class="slider__card">
+      <img
+        src="./imgs/cards/IMG_20250119_153550_667.png"
+        alt=""
+        class="card__img"
+      />
+      <div class="card__info">
+        <h2>Cenas Benéficas</h2>
+        <p>junio de 2022</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-3/index.html" class="slider__card">
+      <img src="./imgs/cards/Rectangle 101-11.png" alt="" class="card__img" />
+      <div class="card__info">
+        <div class="marquee__text marquee-6">
+          <div>
+            <h2>La Canción “Que canten los niños”.</h2>
+            <h2>La Canción “Que canten los niños”.</h2>
+          </div>
+        </div>
+        <p>febrero de 2024</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-4/index.html" class="slider__card">
+      <img src="./imgs/cards/Rectangle 101-21.png" alt="" class="card__img" />
+      <div class="card__info">
+        <div class="marquee__text marquee-0">
+          <div>
+            <h2>Concierto en Madrid: Un Canto a la Esperanza</h2>
+            <h2>Concierto en Madrid: Un Canto a la Esperanza</h2>
+          </div>
+        </div>
+        <p>5 de diciembre de 2023</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-6/index.html" class="slider__card">
+      <img src="./imgs/cards/Rectangle 101.png" alt="" class="card__img" />
+      <div class="card__info">
+        <div class="marquee__text marquee-7">
+          <div>
+            <h2>Salvar a los que salvan: los médicos.</h2>
+            <h2>Salvar a los que salvan: los médicos.</h2>
+          </div>
+        </div>
+        <p>5 de diciembre de 2023</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-5/index.html" class="slider__card">
+      <img src="./imgs/cards/Rectangle 101-1.png" alt="" class="card__img" />
+      <div class="card__info">
+        <div class="marquee__text marquee-1">
+          <div>
+            <h2>El Deporte Une: futbolistas jóvenes de Ucrania</h2>
+            <h2>El Deporte Une: futbolistas jóvenes de Ucrania</h2>
+          </div>
+        </div>
+        <p>abril de 2023</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-7/index.html" class="slider__card">
+      <img src="./imgs/cards/image.png" alt="" class="card__img" />
+      <div class="card__info">
+        <div class="marquee__text marquee-8">
+          <div>
+            <h2>Mujeres Fuertes, Sociedades Fuertes (1)</h2>
+            <h2>Mujeres Fuertes, Sociedades Fuertes (1)</h2>
+          </div>
+        </div>
+        <p>mayo de 2024</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-8/index.html" class="slider__card">
+      <img src="./imgs/cards/Rectangle 101-2.png" alt="" class="card__img" />
+      <div class="card__info">
+        <div class="marquee__text marquee-8">
+          <div>
+            <h2>Mujeres Fuertes, Sociedades Fuertes (2)</h2>
+            <h2>Mujeres Fuertes, Sociedades Fuertes (2)</h2>
+          </div>
+        </div>
+        <p>febrero de 2024</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-9/index.html" class="slider__card">
+      <img src="./imgs/cards/imageee.png" alt="" class="card__img" />
+      <div class="card__info">
+        <div class="marquee__text marquee-8">
+          <div>
+            <h2>Mujeres Fuertes, Sociedades Fuertes (3)</h2>
+            <h2>Mujeres Fuertes, Sociedades Fuertes (3)</h2>
+          </div>
+        </div>
+        <p>septiembre de 2024</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-10/index.html" class="slider__card">
+      <img src="./imgs/cards/Rectangle 101-3.png" alt="" class="card__img" />
+      <div class="card__info">
+        <div class="marquee__text marquee-2">
+          <div>
+            <h2>
+              Campamentos de Recuperación Psicológica y Liderazgo Social para
+              (3)
+            </h2>
+            <h2>
+              Campamentos de Recuperación Psicológica y Liderazgo Social para
+              (3)
+            </h2>
+          </div>
+        </div>
+        <p>enero de 2024</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-11/index.html" class="slider__card">
+      <img
+        src="./imgs/cards/IMG_20240621_162316_118.png"
+        alt=""
+        class="card__img"
+      />
+      <div class="card__info">
+        <div class="marquee__text marquee-3">
+          <div>
+            <h2>Desarrollo de Liderazgo Social y Voluntariado</h2>
+            <h2>Desarrollo de Liderazgo Social y Voluntariado</h2>
+          </div>
+        </div>
+        <p>junio de 2024</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-12/index.html" class="slider__card">
+      <img src="./imgs/cards/Rectangle 101-31.png" alt="" class="card__img" />
+      <div class="card__info">
+        <div class="marquee__text marquee-4">
+          <div>
+            <h2>Formación en Proyectos Sociales y Apoyo Emocional</h2>
+            <h2>Formación en Proyectos Sociales y Apoyo Emocional</h2>
+          </div>
+        </div>
+        <p>julio de 2024</p>
+      </div>
+    </a>
+  </div>
+  <div class="swiper-slide">
+    <a href="../Projects/Project-13/index.html" class="slider__card">
+      <img src="./imgs/cards/image-1.png" alt="" class="card__img" />
+      <div class="card__info">
+        <div class="marquee__text marquee-5">
+          <div>
+            <h2>
+              Cuarta Edición del Programa de Recuperación y Liderazgo Social
+            </h2>
+            <h2>
+              Cuarta Edición del Programa de Recuperación y Liderazgo Social
+            </h2>
+          </div>
+        </div>
+        <p>octubre de 2024</p>
+      </div>
+    </a>
+  </div>`;
+  } else if (window.innerWidth <= 885) {
+    footerBody.innerHTML = content885;
   } else if (window.innerWidth <= 1024) {
     document.querySelector(".footer__body").innerHTML = `
     <div class="footer__top">
@@ -402,7 +597,6 @@ function handleMediaChange() {
 </div>
     `;
   } else if (window.innerWidth <= 1400) {
-    document.querySelector("");
   } else {
   }
 }

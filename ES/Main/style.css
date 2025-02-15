@@ -1458,14 +1458,14 @@ body {
   .slider__img {
     width: 355px;
     height: 355px;
-    animation: slide 5s linear infinite;
+    animation: slide 25s linear infinite;
   }
   @keyframes slide {
     0% {
       transform: translateZ(0);
     }
     100% {
-      transform: translate3d(-365px, 0, 0);
+      transform: translate3d(-2920px, 0, 0);
     }
   }
   .page__main-block-3 {
@@ -1623,16 +1623,21 @@ body {
   }
 }
 @media (max-width: 710px) {
-  .swiper-slide {
-  }
-  .slider__card {
-  }
-  .card__img {
-  }
 }
 @media (max-width: 675px) {
 }
-@media (max-width: 633px) {
+@media (max-width: 630px) {
+  .marquee-6 {
+    max-width: 511px;
+  }
+  .marquee-7 {
+    max-width: 547px;
+  }
+  .marquee-8 {
+    max-width: 578px;
+  }
+  .card__info {
+  }
 }
 @media (max-width: 576px) {
   .content__circle {
@@ -1670,6 +1675,8 @@ body {
   .circe__text {
     font-size: 24px;
   }
+}
+@media (max-width: 555px) {
 }
 @media (max-width: 435px) {
   .header {
