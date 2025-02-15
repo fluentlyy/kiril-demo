@@ -1846,6 +1846,15 @@ body {
   .slider__card {
     border-radius: 20px;
   }
+  .slider__card:active {
+    background: rgba(75, 97, 241, 1);
+  }
+  .slider__card:active .card__info h2 {
+    color: rgba(255, 254, 247, 1);
+  }
+  .slider__card:active .card__info p {
+    color: rgba(255, 254, 247, 1);
+  }
   .card__about {
     max-width: 100%;
     align-items: flex-start;
@@ -1938,7 +1947,9 @@ body {
     margin-top: 60px;
   }
 }
-@media (hover: none) and (pointer: coarse) {
+
+@media (hover: none) {
   .slider__card:hover {
+    all: unset;
   }
 }
